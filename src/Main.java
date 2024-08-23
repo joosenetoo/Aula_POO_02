@@ -82,9 +82,14 @@ public class Main {
     }
 
     static void array(){
+
         int[] array = new int[5];  // cria um array de inteiros com tamanho 5
         array[0] = 1;  // define o primeiro elemento do array como 1
         array[1] = 2;  // define o segundo elemento do array como 2
+        int[] arrays = new int[1];
+
+        arrays[0] = 10;
+        System.out.println(arrays[0]);
 
         // e assim por diante...
         // alimentando o array com valores através do loop for
